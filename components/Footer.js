@@ -4,7 +4,7 @@ export default function Footer() {
   const { footer } = copy;
   const year = new Date().getFullYear();
   return (
-    <footer className="w-full bg-[#0A2A20] text-brand-cream/70 py-12 px-5 md:px-8">
+    <footer className="w-full bg-[#2E1519] text-brand-cream/70 py-12 px-5 md:px-8">
       <div className="max-w-3xl mx-auto text-center">
         <p className="text-[18px] font-extrabold text-brand-cream mb-1">{footer.brand}</p>
         <p className="text-[14px] text-brand-cream/60 mb-6">{footer.tagline}</p>

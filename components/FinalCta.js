@@ -80,7 +80,7 @@ export default function FinalCta() {
       className="w-full bg-brand-mint py-16 md:py-24 px-4 md:px-6 font-sans text-center flex flex-col items-center"
     >
       <div className="max-w-4xl mx-auto w-full flex flex-col items-center">
-        <div className="bg-[#e0f4eb] w-20 h-20 rounded-full flex items-center justify-center mb-6 shadow-sm">
+        <div className="bg-[#F7DCE6] w-20 h-20 rounded-full flex items-center justify-center mb-6 shadow-sm">
           <ShieldCheck className="w-10 h-10 text-brand-green" strokeWidth={2} />
         </div>
 

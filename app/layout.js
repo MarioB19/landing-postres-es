@@ -17,7 +17,7 @@ export const metadata = {
   title: copy.metadata.title,
   description: copy.metadata.description,
   icons: {
-    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%231B7A5A'/></svg>",
+    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23C13B63'/></svg>",
   },
 };
 
