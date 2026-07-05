@@ -1,0 +1,7 @@
+# Configuración de build para Netlify (deploy continuo desde GitHub)
+# La landing es Next.js 14 (app router). El plugin oficial gestiona SSR/routing y assets.
+[build]
+  command = "npm run build"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
