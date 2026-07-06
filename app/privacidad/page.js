@@ -14,7 +14,7 @@ export default function Privacidad() {
       <h1 className="text-3xl md:text-4xl font-extrabold text-brand-greenDark mb-2">
         Política de Privacidad
       </h1>
-      <p className="text-sm text-gray-500 mb-8">Última actualización: 1 de julio de 2026</p>
+      <p className="text-sm text-gray-500 mb-8">Última actualización: 6 de julio de 2026</p>
 
       <p>
         Esta política describe cómo <strong>Inovaris</strong> (&quot;nosotros&quot;) trata la
@@ -34,9 +34,10 @@ export default function Privacidad() {
 
       <H2>2. Procesamiento de pagos</H2>
       <p>
-        Las compras se procesan a través de <strong>Hotmart</strong> (hotmart.com), que actúa como
-        comerciante de registro. Inovaris no recibe ni almacena los datos de tu tarjeta. El
-        tratamiento de tus datos de pago se rige por la política de privacidad de Hotmart, disponible en hotmart.com/es/privacy. Los cargos se muestran y procesan en pesos mexicanos (MXN).
+        Las compras se procesan a través de <strong>Stripe</strong> (stripe.com), nuestro proveedor
+        de procesamiento de pagos. Inovaris no recibe ni almacena los datos de tu tarjeta; estos son
+        tratados de forma segura por Stripe conforme a su política de privacidad, disponible en
+        stripe.com/es/privacy. Los cargos se muestran y procesan en pesos mexicanos (MXN).
       </p>
 
       <H2>3. Uso de la información</H2>
@@ -57,7 +58,7 @@ export default function Privacidad() {
       <H2>5. Compartir información</H2>
       <p>
         No vendemos tu información personal. Solo se comparte con los proveedores necesarios para
-        operar: la plataforma de pago (Hotmart), servicios de análisis y publicidad (Meta) y el
+        operar: el procesador de pagos (Stripe), servicios de análisis y publicidad (Meta) y el
         proveedor de alojamiento del sitio.
       </p>
 
@@ -83,8 +84,9 @@ export default function Privacidad() {
       </p>
 
       <p className="mt-10 text-sm text-gray-500">
-        Este sitio y sus productos tienen fines informativos y de cocina; no sustituyen la
-        indicación de un profesional de la salud.
+        Este sitio y sus productos tienen fines informativos y educativos. Los costos y precios
+        incluidos son aproximados y de referencia; los resultados de venta dependen de cada persona,
+        su dedicación y su mercado local. No garantizamos ingresos ni resultados específicos.
       </p>
     </main>
   );

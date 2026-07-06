@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 import { copy } from "@/lib/copy";
 import { ShieldCheck } from "lucide-react";
 
-// ⚠️ PENDIENTE F6: URL real del checkout Hotmart ($249 MXN + bump $79). Brandon la pasa al dar de alta el producto.
-const BASE_CHECKOUT_URL = "https://pay.hotmart.com/PENDIENTE_CHECKOUT_POSTRES";
+// Checkout propio (plataforma Inovaris + Stripe). Alta vía API 06-jul: prod_UprD79aKc3IPsx.
+const BASE_CHECKOUT_URL = "https://plataforma.inovaris.online/checkout/postres-mx";
 
 export default function FinalCta() {
   const [checkoutUrl, setCheckoutUrl] = useState(BASE_CHECKOUT_URL);

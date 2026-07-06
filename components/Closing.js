@@ -3,8 +3,8 @@
 import { useState, useEffect } from "react";
 import { copy } from "@/lib/copy";
 
-// Misma lógica de checkout que FinalCta. ⚠️ PENDIENTE F6: URL real de Hotmart.
-const BASE_CHECKOUT_URL = "https://pay.hotmart.com/PENDIENTE_CHECKOUT_POSTRES";
+// Misma lógica de checkout que FinalCta. Checkout propio (plataforma Inovaris + Stripe), alta 06-jul.
+const BASE_CHECKOUT_URL = "https://plataforma.inovaris.online/checkout/postres-mx";
 
 export default function Closing() {
   const [checkoutUrl, setCheckoutUrl] = useState(BASE_CHECKOUT_URL);
